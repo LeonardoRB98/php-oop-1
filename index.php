@@ -10,11 +10,11 @@
 
       // construct
       function __construct($titleCo, $authorCo, $pubblicationDateCo, $publishingHouseCo, $priceCo) {
-          $this->$title = $titleCo;
-          $this->$author = $authorCo; 
-          $this->$pubblicationDate = $pubblicationDateCo; 
-          $this->$publishingHouse = $publishingHouseCo;  
-          $this->$price = $priceCo; 
+          $this->title = $titleCo;
+          $this->author = $authorCo; 
+          $this->pubblicationDate = $pubblicationDateCo; 
+          $this->publishingHouse = $publishingHouseCo;  
+          $this->price = $priceCo; 
         }
         
     }
